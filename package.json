@@ -1,0 +1,14 @@
+{
+  "name": "kink",
+  "version": "0.2.0",
+  "description": "Kink connects your redux store to your code.",
+  "main": "index.js",
+  "repository": "git@github.com:jsbites/kink.git",
+  "author": "Volkan Özçelik <volkan.ozcelik@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "delgado": "^0.4.2",
+    "react-redux": "^5.0.5",
+    "redux": "^3.6.0"
+  }
+}
