@@ -4,11 +4,32 @@
   "description": "Kink connects your redux store to your code.",
   "main": "index.js",
   "repository": "git@github.com:jsbites/kink.git",
-  "author": "Volkan Özçelik <volkan.ozcelik@gmail.com>",
+  "author": "Volkan Özçelik <me@volkan.io> (https://volkan.io/)",
   "license": "MIT",
   "dependencies": {
     "delgado": "^0.4.2",
     "react-redux": "^5.0.5",
     "redux": "^3.6.0"
-  }
+  },
+  "keywords": [
+      "kink",
+      "react",
+      "redux",
+      "store",
+      "connect",
+      "utility",
+      "helper",
+      "vidcast",
+      "videocast",
+      "videos",
+      "tutorials",
+      "javascript",
+      "education",
+      "learning",
+      "screencast"
+  ],
+  "bugs": {
+    "url": "https://github.com/jsbites/kink/issues"
+  },
+  "homepage": "https://bytesized.tv/"
 }
