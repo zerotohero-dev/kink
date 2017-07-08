@@ -57,3 +57,10 @@ typings/
 # dotenv environment variables file
 .env
 
+# IDE
+.idea
+.c9
+.history
+.vscode
+
+
