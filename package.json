@@ -1,16 +1,27 @@
 {
   "name": "kink",
-  "version": "0.2.1",
+  "version": "0.2.5",
   "description": "Kink connects your redux store to your code.",
   "main": "index.js",
   "repository": "git@github.com:jsbites/kink.git",
   "author": "Volkan Özçelik <me@volkan.io> (https://volkan.io/)",
   "license": "MIT",
-  "dependencies": {
-    "delgado": "^0.4.2",
-    "react-redux": "^5.0.5",
-    "redux": "^3.6.0"
+  "scripts": {
+    "test": "bin/test.sh",
+    "lint": "bin/lint.sh",
+    "flow": "bin/flow.sh",
+    "precommit": "bin/precommit.sh"
   },
+  "lint-staged": {
+    "*.{js,json,css,sass,scss,md}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "files": [
+    "lib/",
+    "index.js"
+  ],
   "keywords": [
     "byte",
     "byte-sized javascript",
@@ -37,5 +48,24 @@
   "bugs": {
     "url": "https://github.com/jsbites/kink/issues"
   },
-  "homepage": "https://bytesized.tv/"
+  "homepage": "https://bytesized.tv/",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "delgado": "^0.6.0",
+    "eslint": "^4.15.0",
+    "eslint-config-jsbites": "^2.1.2",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-babel": "^4.1.2",
+    "eslint-plugin-react": "^7.5.1",
+    "prettier": "^1.9.2",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2"
+  },
+  "peerDependencies": {
+    "delgado": "^0.6.0",
+    "react": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2"
+  }
 }

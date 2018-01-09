@@ -1,2 +1,5 @@
+/*
+ *
+ */
 
-module.exports = require('./lib');
+export { connect, createRootReducer } from './lib';
